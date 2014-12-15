@@ -1,0 +1,139 @@
+//#include <windows.h>
+//#include "CubicSpline.h"
+//
+//MyMenu MENU DISCARDABLE 
+//BEGIN
+//  MENUITEM "E&llipse", ID_ELLIPSE
+//  MENUITEM "&Clear",   ID_CLEAR
+//  MENUITEM "&Exit",    ID_EXIT
+//END
+//
+//MyDB DIALOG DISCARDABLE  0, 0, 186, 95
+//STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+//CAPTION "Ellipse Diameters"
+//FONT 8, "MS Sans Serif"
+//BEGIN
+//  DEFPUSHBUTTON   "OK",ID_OK,31,74,50,14
+//  PUSHBUTTON      "CANCEL",ID_CANCEL,104,74,50,14
+//  LTEXT           "Major Diameter:",ID_LABEL1,15,14,108,17
+//  LTEXT           "Minor Diameter:",ID_LABEL2,15,44,108,22
+//  EDITTEXT        ID_EB1,114,14,40,15,ES_AUTOHSCROLL
+//  EDITTEXT        ID_EB2,114,41,38,15,ES_AUTOHSCROLL
+//END
+
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+#include "windows.h"
+#include "CubicSpline.h"
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MYMENU MENU
+BEGIN
+MENUITEM "S&pline", ID_ELLIPSE
+MENUITEM "&Clear", ID_CLEAR
+MENUITEM "&Exit", ID_EXIT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+MYDB DIALOGEX 0, 0, 399, 178
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Spline Parameters"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+DEFPUSHBUTTON   "OK", ID_OK, 29, 106, 50, 14
+PUSHBUTTON      "CANCEL", ID_CANCEL, 105, 106, 50, 14
+LTEXT           "b1", ID_LABEL1, 194, 34, 41, 15
+EDITTEXT        ID_EB1, 110, 10, 42, 15, ES_AUTOHSCROLL
+EDITTEXT        ID_EB2, 110, 34, 41, 15, ES_AUTOHSCROLL
+LTEXT           "a2", ID_LABEL3, 25, 57, 70, 17
+LTEXT           "a3", ID_LABEL4, 25, 78, 41, 17
+EDITTEXT        ID_EB3, 111, 55, 40, 15, ES_AUTOHSCROLL
+EDITTEXT        ID_EB4, 111, 74, 40, 15, ES_AUTOHSCROLL
+LTEXT           "b0", ID_LABEL5, 194, 15, 42, 15
+LTEXT           "a1", ID_LABEL6, 25, 36, 42, 20
+LTEXT           "a0", ID_LABEL7, 25, 15, 42, 17
+LTEXT           "b2", ID_LABEL8, 193, 52, 40, 17
+LTEXT           "b3", ID_LABEL9, 193, 73, 41, 17
+EDITTEXT        ID_EB5, 259, 10, 41, 15, ES_AUTOHSCROLL
+EDITTEXT        ID_EB6, 259, 30, 41, 15, ES_AUTOHSCROLL
+EDITTEXT        ID_EB7, 259, 51, 41, 15, ES_AUTOHSCROLL
+EDITTEXT        ID_EB8, 259, 70, 41, 15, ES_AUTOHSCROLL
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+"resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+"\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+"\r\n"
+"\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+"MYDB", DIALOG
+BEGIN
+RIGHTMARGIN, 300
+BOTTOMMARGIN, 120
+END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+
+
+

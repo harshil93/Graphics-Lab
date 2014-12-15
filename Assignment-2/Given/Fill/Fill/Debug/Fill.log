@@ -1,0 +1,18 @@
+﻿Build started 9/29/2014 7:40:16 PM.
+     1>Project "D:\Dropbox\7th Sem\Computer Graphics\Assignment-2\Given\Fill\Fill\Fill.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DrawUtil.cpp Fill.cpp WMain.cpp
+         WMain.cpp
+     1>d:\dropbox\7th sem\computer graphics\assignment-2\given\fill\fill\wmain.cpp : fatal error C1041: cannot open program database 'd:\dropbox\7th sem\computer graphics\assignment-2\given\fill\fill\debug\vc120.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Fill.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(341,5): error MSB6006: "CL.exe" exited with code 2.
+     1>d:\dropbox\7th sem\computer graphics\assignment-2\given\fill\fill\fill.cpp : fatal error C1041: cannot open program database 'd:\dropbox\7th sem\computer graphics\assignment-2\given\fill\fill\debug\vc120.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         DrawUtil.cpp
+     1>d:\dropbox\7th sem\computer graphics\assignment-2\given\fill\fill\drawutil.cpp : fatal error C1041: cannot open program database 'd:\dropbox\7th sem\computer graphics\assignment-2\given\fill\fill\debug\vc120.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Generating Code...
+     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+     1>Done Building Project "D:\Dropbox\7th Sem\Computer Graphics\Assignment-2\Given\Fill\Fill\Fill.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.53

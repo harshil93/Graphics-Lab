@@ -1,0 +1,109 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+#include <windows.h>
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MYMENU MENU
+BEGIN
+    MENUITEM "Spline-3",                    ID_ELLIPSE
+    MENUITEM "&Clear",                      ID_CLEAR
+    MENUITEM "&Exit",                       ID_EXIT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+MYDB DIALOGEX 0, 0, 177, 139
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Cubic Spline Params"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_OK,46,106,50,14
+    PUSHBUTTON      "CANCEL",ID_CANCEL,101,106,50,14
+    LTEXT           "b1",ID_LABEL1,100,33,41,15
+    EDITTEXT        ID_EB1,45,13,42,15,ES_AUTOHSCROLL
+    EDITTEXT        ID_EB2,45,37,41,15,ES_AUTOHSCROLL
+    LTEXT           "a2",ID_LABEL3,25,57,70,17
+    LTEXT           "a3",ID_LABEL4,25,78,41,17
+    EDITTEXT        ID_EB3,47,58,40,15,ES_AUTOHSCROLL
+    EDITTEXT        ID_EB4,47,77,40,15,ES_AUTOHSCROLL
+    LTEXT           "b0",ID_LABEL5,100,14,42,15
+    LTEXT           "a1",ID_LABEL6,25,36,18,20
+    LTEXT           "a0",ID_LABEL7,25,15,14,17
+    LTEXT           "b2",ID_LABEL8,99,52,40,17
+    LTEXT           "b3",ID_LABEL9,99,73,41,17
+    EDITTEXT        ID_EB5,117,12,41,15,ES_AUTOHSCROLL
+    EDITTEXT        ID_EB6,117,33,41,15,ES_AUTOHSCROLL
+    EDITTEXT        ID_EB7,117,54,41,15,ES_AUTOHSCROLL
+    EDITTEXT        ID_EB8,117,73,41,15,ES_AUTOHSCROLL
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "MYDB", DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
