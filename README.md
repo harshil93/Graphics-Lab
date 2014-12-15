@@ -27,5 +27,5 @@ Graphics-Lab
 
 - Contact me if you are unable to run it.
 
-Team Partner - @shobhit6993
+Team Partner - [shobhit6993](https://github.com/shobhit6993)
 
